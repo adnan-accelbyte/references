@@ -1,6 +1,10 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
+//const {siteConfig} = useDocusaurusContext();
 
 type FeatureItem = {
   title: string;
@@ -10,32 +14,72 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Unreal Engine SDK',
+    Svg: require('@site/static/img/icons8-unreal-engine.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        View Unreal Engine SDK documentation.
+        <div className="container">
+            <div className="column"></div>
+              <div className={styles.buttons}>
+                <Link
+                  className="button button--secondary button--lg"
+                  to='/unreal-oss/'
+                  target="_blank">
+                  Unreal OSS
+                </Link>
+              </div>
+              <div className={styles.buttons}>
+                <Link
+                  className="button button--secondary button--lg"
+                  to='/unreal-sdk/'
+                  target="_blank">
+                  Unreal SDK
+                </Link>
+              </div>
+          </div>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Unity Engine SDK',
+    Svg: require('@site/static/img/icons8-unity-engine.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        View Unity Engine SDK doucmentation.
+        
+        <div className="container">
+            <div className="column"></div>
+              <div className={styles.buttons}>
+                <Link
+                  className="button button--secondary button--lg"
+                  to='/unity-sdk/'
+                  target="_blank">
+                  Unity SDK
+                </Link>
+              </div>
+          </div>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Unity Engine SDK',
+    Svg: require('@site/static/img/icons8-c.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        View C++ SDK doucmentation.
+        
+        <div className="container">
+            <div className="column"></div>
+              <div className={styles.buttons}>
+                <Link
+                  className="button button--secondary button--lg"
+                  to="/cpp-sdk/"
+                  target="_blank">
+                  C++ SDK
+                </Link>
+              </div>
+          </div>
       </>
     ),
   },

@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['queryachievements_0',['QueryAchievements',['../d5/da9/class_accel_byte_1_1_api_1_1_achievement.html#a9dd3146f4c1438d1ced16671f934eb6a',1,'AccelByte::Api::Achievement']]],
+  ['queryadmingamerecordkeys_1',['QueryAdminGameRecordKeys',['../de/db7/class_accel_byte_1_1_server_1_1_server_cloud_save.html#a92cbbbefa601b86ba27c0b4a3f759112',1,'AccelByte::Server::ServerCloudSave']]],
+  ['queryadmingamerecordsbykey_2',['QueryAdminGameRecordsByKey',['../de/db7/class_accel_byte_1_1_server_1_1_server_cloud_save.html#ad4f97042c69621da09a6ec32b8a9d3bf',1,'AccelByte::Server::ServerCloudSave']]],
+  ['queryadminuserrecordkeys_3',['QueryAdminUserRecordKeys',['../de/db7/class_accel_byte_1_1_server_1_1_server_cloud_save.html#a0e615ed0c7f200fc6c30e8b97d6dcac4',1,'AccelByte::Server::ServerCloudSave']]],
+  ['queryadminuserrecordsbykey_4',['QueryAdminUserRecordsByKey',['../de/db7/class_accel_byte_1_1_server_1_1_server_cloud_save.html#a9193806ebaa5eac4ab9d0e181884d7b1',1,'AccelByte::Server::ServerCloudSave']]],
+  ['querychat_5',['QueryChat',['../d6/d2d/class_accel_byte_1_1_api_1_1_chat.html#a90a81e5645c39fb93e8cdf69f540c356',1,'AccelByte::Api::Chat']]],
+  ['querygamesession_6',['QueryGameSession',['../db/dc1/class_accel_byte_1_1_api_1_1_session.html#a3e0d00d9a89979c9829e9b85a031f076',1,'AccelByte::Api::Session']]],
+  ['queryglobalachievementcontributors_7',['QueryGlobalAchievementContributors',['../d5/da9/class_accel_byte_1_1_api_1_1_achievement.html#af35785f586b329967f4a9ac2d4a2b097',1,'AccelByte::Api::Achievement']]],
+  ['queryglobalachievements_8',['QueryGlobalAchievements',['../d5/da9/class_accel_byte_1_1_api_1_1_achievement.html#a514f304b2bb13ff0042b9add05b5c7c5',1,'AccelByte::Api::Achievement']]],
+  ['queryglobalachievementusercontributed_9',['QueryGlobalAchievementUserContributed',['../d5/da9/class_accel_byte_1_1_api_1_1_achievement.html#aef29fda371042dac9f4d9082ed1492c2',1,'AccelByte::Api::Achievement']]],
+  ['querygrouptopic_10',['QueryGroupTopic',['../d6/d2d/class_accel_byte_1_1_api_1_1_chat.html#a576a6511c9b30bfb873db88dafc8fd3b',1,'AccelByte::Api::Chat']]],
+  ['queryitemsbycriteria_11',['QueryItemsByCriteria',['../d0/d9c/class_accel_byte_1_1_server_1_1_server_ecommerce.html#abcbd9583e015fa929277eefde9bd6f4d',1,'AccelByte::Server::ServerEcommerce']]],
+  ['queryitemsbycriteriav2_12',['QueryItemsByCriteriaV2',['../d0/d9c/class_accel_byte_1_1_server_1_1_server_ecommerce.html#a4349efb12d664a05b04f106f2efd4f60',1,'AccelByte::Server::ServerEcommerce']]],
+  ['querylegaleligibilities_13',['QueryLegalEligibilities',['../df/d8c/class_accel_byte_1_1_api_1_1_agreement.html#a9ae98bc11399a502d4bacca90fc481ea',1,'AccelByte::Api::Agreement']]],
+  ['querypersonaltopic_14',['QueryPersonalTopic',['../d6/d2d/class_accel_byte_1_1_api_1_1_chat.html#a12c2906c0a47a1ea74b59d2ab02257e6',1,'AccelByte::Api::Chat']]],
+  ['queryrewards_15',['QueryRewards',['../de/d10/class_accel_byte_1_1_api_1_1_reward.html#a771b5576ac044ff21180ddeb6fa771e5',1,'AccelByte::Api::Reward']]],
+  ['querysessionstatus_16',['QuerySessionStatus',['../d7/da8/class_accel_byte_1_1_server_1_1_server_matchmaking.html#a49b38114dd8264942247fb768b89fbc5',1,'AccelByte::Server::ServerMatchmaking']]],
+  ['querysystemmessage_17',['QuerySystemMessage',['../d6/d2d/class_accel_byte_1_1_api_1_1_chat.html#ac708faff51db60ffcba1be418bf748a7',1,'AccelByte::Api::Chat']]],
+  ['querytopic_18',['querytopic',['../d6/d2d/class_accel_byte_1_1_api_1_1_chat.html#a95b81d7ddac709498efc52bc19b643af',1,'AccelByte.Api.Chat.QueryTopic(string keyword, ResultCallback&lt; QueryTopicResponse &gt; callback, int offset=0, int limit=20)'],['../d6/d2d/class_accel_byte_1_1_api_1_1_chat.html#a8e89d2327f542fe3c91471a16fb0250c',1,'AccelByte.Api.Chat.QueryTopic(string topicId, ResultCallback&lt; QueryTopicByIdResponse &gt; callback)']]],
+  ['queryuserachievements_19',['QueryUserAchievements',['../d5/da9/class_accel_byte_1_1_api_1_1_achievement.html#aafd9d656c98f130a2b79d9b433bacf41',1,'AccelByte::Api::Achievement']]],
+  ['queryuserentitlements_20',['QueryUserEntitlements',['../d5/d55/class_accel_byte_1_1_api_1_1_entitlement.html#a5d550a867f3f35a395df0afa613b7516',1,'AccelByte::Api::Entitlement']]],
+  ['queryuserorders_21',['QueryUserOrders',['../d7/dc6/class_accel_byte_1_1_api_1_1_orders.html#aa768f2fdd0ba38673a3dbfe6595d0131',1,'AccelByte::Api::Orders']]],
+  ['queryuserseasonexp_22',['QueryUserSeasonExp',['../d7/df1/class_accel_byte_1_1_server_1_1_server_season_pass.html#a1d0a187f818b8cd1469fae6f7a4505bc',1,'AccelByte::Server::ServerSeasonPass']]]
+];
