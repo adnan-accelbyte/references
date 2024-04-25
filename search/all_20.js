@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['_7efaccelbytegroupsinfo_0',['~FAccelByteGroupsInfo',['../d5/d8d/class_f_accel_byte_groups_info.html#a576811decf9f64c6d974e0ebc4072d46',1,'FAccelByteGroupsInfo']]],
-  ['_7efonlinerecentplayeraccelbyte_1',['~FOnlineRecentPlayerAccelByte',['../d0/dc3/class_f_online_recent_player_accel_byte.html#aa35cff42b621397bc3990d6ca6d8a464',1,'FOnlineRecentPlayerAccelByte']]]
+  ['wallet_0',['Wallet',['../d8/d18/class_accel_byte_1_1_api_1_1_wallet.html',1,'AccelByte::Api']]],
+  ['writepartystorage_1',['writepartystorage',['../da/d7b/class_accel_byte_1_1_api_1_1_lobby.html#a16db3a6ed34a9ecbaf7ff68e0fa0053d',1,'AccelByte::Api::Lobby::WritePartyStorage()'],['../db/df4/class_accel_byte_1_1_game_server_api_1_1_server_lobby.html#aa1cc72a4970a75c0fe8789bb8d9e8d99',1,'AccelByte::GameServerApi::ServerLobby::WritePartyStorage()']]]
 ];

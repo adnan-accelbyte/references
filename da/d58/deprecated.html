@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AccelByte Online Subsystem: Deprecated List</title>
+<title>AccelByte Cloud SDK: Deprecated List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">AccelByte Online Subsystem<span id="projectnumber">&#160;0.12.9</span>
+   <div id="projectname">AccelByte Cloud SDK<span id="projectnumber">&#160;25.2.0</span>
    </div>
   </td>
  </tr>
@@ -95,10 +95,50 @@ $(document).ready(function(){initNavTree('da/d58/deprecated.html','../../'); ini
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt>Member <a class="el" href="../../d7/dac/class_f_online_chat_accel_byte.html#ab00c3fbe8aaae9d8a2b563491dc6ecb2">FOnlineChatAccelByte::CreateRoom</a>  (const FUniqueNetId &amp;UserId, const FChatRoomId &amp;RoomId, const FString &amp;Nickname, const FChatRoomConfig &amp;ChatRoomConfig) override</dt>
-<dd><a class="anchor" id="_deprecated000001"></a>Manual room creation is deprecated - please use V2 Sessions to auto-create chat rooms!  </dd>
-<dt>Member <a class="el" href="../../d7/dac/class_f_online_chat_accel_byte.html#aa9a8fb48f2cfccf137178e93afcb0622">FOnlineChatAccelByte::CreateRoom</a>  (const FUniqueNetId &amp;UserId, const FString &amp;Nickname, const <a class="el" href="../../de/dec/struct_f_accel_byte_chat_room_config.html">FAccelByteChatRoomConfig</a> &amp;ChatRoomConfig)</dt>
-<dd><a class="anchor" id="_deprecated000002"></a>Manual room creation is deprecated - please use V2 Sessions to auto-create chat rooms! </dd>
+<dt>Member <a class="el" href="../../d6/d2d/class_accel_byte_1_1_api_1_1_chat.html#a06f45c775f278c66c9ad0d940bac512c">AccelByte::Api::Chat::CreateGroupTopic</a>  (const TSet&lt; FString &gt; &amp;Users, const TSet&lt; FString &gt; &amp;Admins, const FString &amp;TopicName, bool bIsJoinable, const FChatActionTopicResponse &amp;OnSuccess, const FErrorHandler &amp;OnError={})</dt>
+<dd><a class="anchor" id="_deprecated000001"></a>Manual topic creation is deprecated - please use V2 Sessions to auto-create chat topics!  </dd>
+<dt>Member <a class="el" href="../../d6/d2d/class_accel_byte_1_1_api_1_1_chat.html#a169611126d4d1d9f82cb7661a7c74b6f">AccelByte::Api::Chat::CreateGroupTopic</a>  (const <a class="el" href="../../d2/db6/struct_f_accel_byte_models_chat_create_topic_request.html">FAccelByteModelsChatCreateTopicRequest</a> &amp;Request, const FChatActionTopicResponse &amp;OnSuccess, const FErrorHandler &amp;OnError={})</dt>
+<dd><a class="anchor" id="_deprecated000002"></a>Manual topic creation is deprecated - please use V2 Sessions to auto-create chat topics!  </dd>
+<dt>Member <a class="el" href="../../d4/d13/class_accel_byte_1_1_api_1_1_oauth2.html#a63c2c833109d5128a3d00ceb9004236f">AccelByte::Api::Oauth2::GetTokenWithAuthorizationCode</a>  (const FString &amp;ClientId, const FString &amp;ClientSecret, const FString &amp;AuthorizationCode, const FString &amp;RedirectUri, const THandler&lt; FOauth2Token &gt; &amp;OnSuccess, const FErrorHandler &amp;OnError, const FString &amp;IamUrl=TEXT(""))</dt>
+<dd><a class="anchor" id="_deprecated000008"></a>This method will be removed in the future, so please use GetTokenWithAuthorizationCodeV3(const FString&amp; ClientId
+    , const FString&amp; ClientSecret, const FString&amp; AuthorizationCode, const FString&amp; RedirectUri
+    , THandler&lt;FOauth2Token&gt;&amp; OnSuccess, const FOAuthErrorHandler&amp; OnError, const FString&amp; IamUrl)  </dd>
+<dt>Member <a class="el" href="../../d4/d13/class_accel_byte_1_1_api_1_1_oauth2.html#af4ebd52f0587e46922bf3b614ce4c456">AccelByte::Api::Oauth2::GetTokenWithAuthorizationCode</a>  (const FString &amp;ClientId, const FString &amp;ClientSecret, const FString &amp;AuthorizationCode, const FString &amp;RedirectUri, const THandler&lt; FOauth2Token &gt; &amp;OnSuccess, const FOAuthErrorHandler &amp;OnError, const FString &amp;IamUrl=TEXT(""))</dt>
+<dd><a class="anchor" id="_deprecated000009"></a>This method will be removed in the future, so please use GetTokenWithAuthorizationCodeV3(const FString&amp; ClientId
+    , const FString&amp; ClientSecret, const FString&amp; AuthorizationCode, const FString&amp; RedirectUri
+    , THandler&lt;FOauth2Token&gt;&amp; OnSuccess, const FOAuthErrorHandler&amp; OnError, const FString&amp; IamUrl)  </dd>
+<dt>Member <a class="el" href="../../d4/d13/class_accel_byte_1_1_api_1_1_oauth2.html#a034038227a78e6c1e2081db4da26d062">AccelByte::Api::Oauth2::GetTokenWithPasswordCredentials</a>  (const FString &amp;ClientId, const FString &amp;ClientSecret, const FString &amp;Username, const FString &amp;Password, const THandler&lt; FOauth2Token &gt; &amp;OnSuccess, const FErrorHandler &amp;OnError, const FString &amp;IamUrl=TEXT(""))</dt>
+<dd><a class="anchor" id="_deprecated000010"></a>This method will be removed in the future, so please use GetTokenWithPasswordCredentialsV3(const FString&amp; ClientId
+    , const FString&amp; ClientSecret, const FString&amp; Username, const FString&amp; Password, THandler&lt;FOauth2Token&gt;&amp; OnSuccess
+    , const FOAuthErrorHandler&amp; OnError, const FString&amp; IamUrl)  </dd>
+<dt>Member <a class="el" href="../../d4/d13/class_accel_byte_1_1_api_1_1_oauth2.html#a3bc3c4300e5650e987ad14eeafd7225b">AccelByte::Api::Oauth2::GetTokenWithPasswordCredentials</a>  (const FString &amp;ClientId, const FString &amp;ClientSecret, const FString &amp;Username, const FString &amp;Password, const THandler&lt; FOauth2Token &gt; &amp;OnSuccess, const FOAuthErrorHandler &amp;OnError, const FString &amp;IamUrl=TEXT(""))</dt>
+<dd><a class="anchor" id="_deprecated000011"></a>This method will be removed in the future, so please use GetTokenWithPasswordCredentialsV3(const FString&amp; ClientId
+    , const FString&amp; ClientSecret, const FString&amp; Username, const FString&amp; Password, THandler&lt;FOauth2Token&gt;&amp; OnSuccess
+    , const FOAuthErrorHandler&amp; OnError, const FString&amp; IamUrl)  </dd>
+<dt>Member <a class="el" href="../../d4/d13/class_accel_byte_1_1_api_1_1_oauth2.html#abcdfa89790e628980369b3f9e5005f5d">AccelByte::Api::Oauth2::RevokeToken</a>  (const FString &amp;AccessToken, const FVoidHandler &amp;OnSuccess, const FErrorHandler &amp;OnError, const FString &amp;IamUrl=TEXT(""))</dt>
+<dd><a class="anchor" id="_deprecated000012"></a>This method is using wrong auth type, so please use <a class="el" href="../../d4/d13/class_accel_byte_1_1_api_1_1_oauth2.html#a16ebbf9cd49a59e9b13d84ec9fe4c515" title="Revoke specified access token to make it invalid.">RevokeToken(const FString&amp; ClientId
+    , const FString&amp; ClientSecret, const FString&amp; AccessToken, const FVoidHandler&amp; OnSuccess
+    , const FOAuthErrorHandler&amp; OnError, const FString&amp; IamUrl)</a>  </dd>
+<dt>Member <a class="el" href="../../dc/d18/class_accel_byte_1_1_api_1_1_u_g_c.html#a68d8b0dfe63fff3b5e66a031cbb6c1d2">AccelByte::Api::UGC::GetLikedContent</a>  (const TArray&lt; FString &gt; &amp;Tags, const FString &amp;Name, const FString &amp;Type, const FString &amp;Subtype, bool IsOfficial, THandler&lt; FAccelByteModelsUGCContentPageResponse &gt; const &amp;OnSuccess, FErrorHandler const &amp;OnError, int32 Limit=1000, int32 Offset=0, EAccelByteUgcSortBy SortBy=EAccelByteUgcSortBy::DATE, EAccelByteUgcOrderBy OrderBy=EAccelByteUgcOrderBy::DESC)</dt>
+<dd><a class="anchor" id="_deprecated000005"></a>This method will be removed in the future, so please use void GetLikedContent(const TArray&lt;FString&gt;&amp; Tags , ... , EAccelByteLikedContentSortBy SortBy = EAccelByteLikedContentSortBy::DATE , EAccelByteUgcOrderBy OrderBy = EAccelByteUgcOrderBy::DESC);  </dd>
+<dt>Member <a class="el" href="../../dc/d18/class_accel_byte_1_1_api_1_1_u_g_c.html#a9361686cc3672d828f0f5fecbce2a827">AccelByte::Api::UGC::ModifyContent</a>  (FString const &amp;ChannelId, FString const &amp;ContentId, <a class="el" href="../../db/d10/struct_f_accel_byte_models_u_g_c_request.html">FAccelByteModelsUGCRequest</a> const &amp;UGCRequest, THandler&lt; FAccelByteModelsUGCResponse &gt; const &amp;OnSuccess, FErrorHandler const &amp;OnError, bool bUpdateContent=false)</dt>
+<dd><a class="anchor" id="_deprecated000003"></a>This method will be removed in the future, so please use void <a class="el" href="../../dc/d18/class_accel_byte_1_1_api_1_1_u_g_c.html#af5777743df8b7caec13600e3c2887bea" title="Modify existing content to update some information with FString preview.">ModifyContent(FString const&amp; ChannelId
+ , FString const&amp; ContentId
+ , FAccelByteModelsUGCUpdateRequest const&amp; ModifyRequest
+ , THandler&lt;FAccelByteModelsUGCResponse&gt; const&amp; OnSuccess
+ , FErrorHandler const&amp; OnError)</a>;  </dd>
+<dt>Member <a class="el" href="../../dc/d18/class_accel_byte_1_1_api_1_1_u_g_c.html#afdc2d804b418e4707b23a6a6d61d665f">AccelByte::Api::UGC::ModifyContent</a>  (FString const &amp;ChannelId, FString const &amp;ContentId, FString const &amp;Name, FString const &amp;Type, FString const &amp;SubType, TArray&lt; FString &gt; const &amp;Tags, TArray&lt; uint8 &gt; const &amp;Preview, FString const &amp;FileExtension, THandler&lt; FAccelByteModelsUGCResponse &gt; const &amp;OnSuccess, FErrorHandler const &amp;OnError, FString ContentType=TEXT("application/octet-stream"), bool bUpdateContent=false)</dt>
+<dd><a class="anchor" id="_deprecated000004"></a>This method will be removed in the future, so please use void <a class="el" href="../../dc/d18/class_accel_byte_1_1_api_1_1_u_g_c.html#af5777743df8b7caec13600e3c2887bea" title="Modify existing content to update some information with FString preview.">ModifyContent(FString const&amp; ChannelId
+ , FString const&amp; ContentId
+ , FAccelByteModelsUGCUpdateRequest const&amp; ModifyRequest
+ , THandler&lt;FAccelByteModelsUGCResponse&gt; const&amp; OnSuccess
+ , FErrorHandler const&amp; OnError)</a>;  </dd>
+<dt>Member <a class="el" href="../../dc/d3f/class_accel_byte_1_1_api_1_1_user.html#a14994866a8d23cfca439fc902a79e0a5">AccelByte::Api::User::UnlinkOtherPlatform</a>  (EAccelBytePlatformType PlatformType, const FVoidHandler &amp;OnSuccess, const FErrorHandler &amp;OnError)</dt>
+<dd><a class="anchor" id="_deprecated000006"></a>This method will be removed in the future. Please use same function with the FCustomErrorHandler parameter instead.  </dd>
+<dt>Member <a class="el" href="../../db/da2/class_accel_byte_1_1_api_1_1_user_profile.html#a57b156c637ff76ba03ccdeae948a9783">AccelByte::Api::UserProfile::BatchGetPublicUserProfileInfos</a>  (const FString &amp;UserIds, const THandler&lt; TArray&lt; FAccelByteModelsPublicUserProfileInfo &gt; &gt; &amp;OnSuccess, const FErrorHandler &amp;OnError)</dt>
+<dd><a class="anchor" id="_deprecated000007"></a>This method will be removed in the future, so please use <a class="el" href="../../db/da2/class_accel_byte_1_1_api_1_1_user_profile.html#afd108343a9ef568fff6805efe31f4ece" title="Bulk get multiple user public profile information.">BulkGetPublicUserProfileInfos(const TArray&lt;FString&gt;&amp; UserIds
+    , const THandler&lt;TArray&lt;FAccelByteModelsPublicUserProfileInfo&gt;&gt;&amp; OnSuccess
+    , const FErrorHandler&amp; OnError)</a> </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
