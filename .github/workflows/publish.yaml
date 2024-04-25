@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+      - unreal-oss
+      - unreal-sdk
+      - unity-sdk
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
@@ -24,6 +27,25 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build website
         run: yarn build
+
+      # Checkout branch static page
+      - name: Checkout Unreal OSS
+        uses: actions/checkout@v4
+        with:
+          ref: unreal-oss
+          path: build/unreal-oss
+
+      - name: Checkout Unreal SDK
+        uses: actions/checkout@v4
+        with:
+          ref: unreal-sdk
+          path: build/unreal-sdk
+
+      - name: Checkout Unity SDK
+        uses: actions/checkout@v4
+        with:
+          ref: unity-sdk
+          path: build/unity-sdk
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
